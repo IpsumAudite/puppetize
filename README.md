@@ -4,6 +4,7 @@ Script used to add agents to a Puppet enclave
 ## Assumptions:
 - You have set up a Puppet master and have a working knowledge of how Puppet works
 - You are using [SIMP](https://download.simp-project.com/simp/ISO/tar_bundles/SIMP-6.3.1-0.el7-CentOS-7-x86_64.tar.gz) to harden your OS 
+- You have set up your own yum repo on the Puppet master
 - You are using CentOS or a similar flavor of Linux
 - You have a manifest that will give root access to the localUser that you will create
 
