@@ -1,24 +1,6 @@
 #!/bin/bash
 #Script to add new machine into enclave and puppetize it
 #Run as root
-
-#Instructions:
-# Log in the first time
-# sudo -s
-# useradd -m localUser
-# passwd localUser
-# cd
-# touch puppetize.sh
-# chmod +x puppetize.sh
-# vim puppetize.sh
-# copy the script
-# get puppet IP and run the script
-# log in as ec2-user again
-# run the script again
-# log in as localUser
-# sudo -s
-# cd
-# run the script
  
 #Show user how to use the script
 function printHelp {
